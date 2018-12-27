@@ -1,0 +1,476 @@
+focus_tree = { 
+id = italian_focus
+country = { 
+factor = 0 
+modifier = { 
+add = 10 
+tag = ITA 
+} 
+} 
+#Focus for Graft
+focus = { 
+id = ITA_graft
+icon = GFX_goal_unknown
+x = 6
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Steps Down
+focus = { 
+id = ITA_stepsdown
+icon = GFX_goal_unknown
+x = 2
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Emergency Elections
+focus = { 
+id = ITA_emergencyelections
+icon = GFX_goal_unknown
+x = 2
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Democracy's Demise
+focus = { 
+id = ITA_democracysdemise
+icon = GFX_goal_unknown
+x = 6
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Rise Of The Nationalists
+focus = { 
+id = ITA_riseofthenationalists
+icon = GFX_goal_support_fascism
+x = 4
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Embrace Marxist Ideals
+focus = { 
+id = ITA_embracemarxistideals
+icon = GFX_goal_support_communism
+x = 0
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Democracy Prevails
+focus = { 
+id = ITA_democracyprevails
+icon = GFX_goal_support_democracy
+x = 2
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Despotic Nepotism
+focus = { 
+id = ITA_despoticnepotism
+icon = GFX_goal_unknown
+x = 6
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Corrupted To The Core
+focus = { 
+id = ITA_corruptedtothecore
+icon = GFX_goal_unknown
+x = 6
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Peaceful Rise
+focus = { 
+id = ITA_peacefulrise
+icon = GFX_goal_unknown
+x = 16
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dominating The Mediterranean
+focus = { 
+id = ITA_dominatingthemediterranean
+icon = GFX_goal_generic_major_war
+x = 10
+y = 0
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Demand Croatian Land
+focus = { 
+id = ITA_demandcroatianland
+icon = GFX_goal_unknown
+x = 8
+y = 1
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_dominatingthemediterranean } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Invade Crete
+focus = { 
+id = ITA_invadecrete
+icon = GFX_goal_unknown
+x = 8
+y = 2
+cost = 10
+completion_reward = {
+
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Bosnian Claims
+focus = { 
+id = ITA_bosnianclaims
+icon = GFX_goal_unknown
+x = 8
+y = 3
+cost = 10
+completion_reward = {
+create_wargoal = { type = annex_everything target = BOS }
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for War With Greece
+focus = { 
+id = ITA_warwithgreece
+icon = GFX_goal_tfv_can_forced_quebec_conscription
+x = 8
+y = 4
+cost = 10
+completion_reward = {
+create_wargoal = { type = annex_everything target = GRE }
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Reclaim Constantinople
+focus = { 
+id = ITA_reclaimconstantinople
+icon = GFX_goal_unknown
+x = 10
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Dealing With The French
+focus = { 
+id = ITA_dealingwiththefrench
+icon = GFX_goal_unknown
+x = 12
+y = 4
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Push For Bulgaria
+focus = { 
+id = ITA_pushforbulgaria
+icon = GFX_goal_unknown
+x = 10
+y = 3
+cost = 10
+completion_reward = {
+create_wargoal = { type = puppet_wargoal_focus target = BUL }
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Annex Albania
+focus = { 
+id = ITA_annexalbania
+icon = GFX_goal_unknown
+x = 10
+y = 1
+cost = 10
+completion_reward = {
+annex_country = { target = ALB }
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for The Serbian Issue
+focus = { 
+id = ITA_theserbianissue
+icon = GFX_goal_unknown
+x = 10
+y = 2
+cost = 10
+completion_reward = {
+create_wargoal = { type = puppet_wargoal_focus target = SER }
+}
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for French-Italian Border Claims
+focus = { 
+id = ITA_frenchitalianborderclaims
+icon = GFX_goal_unknown
+x = 12
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Demand British Somalia
+focus = { 
+id = ITA_demandbritishsomalia
+icon = GFX_goal_unknown
+x = 12
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Strike Egypt
+focus = { 
+id = ITA_strikeegypt
+icon = GFX_goal_generic_occupy_states_ongoing_war
+x = 12
+y = 3
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for People's Party Wins!
+focus = { 
+id = ITA_peoplespartywins
+icon = GFX_goal_unknown
+x = 1
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_democracyprevails } 
+mutually_exclusive = { focus = ITA_democraticliberalpartywins } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Democratic-Liberal Party Wins!
+focus = { 
+id = ITA_democraticliberalpartywins
+icon = GFX_goal_unknown
+x = 3
+y = 6
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_democracyprevails } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalist Blueshirts
+focus = { 
+id = ITA_nationalistblueshirts
+icon = GFX_focus_generic_military_mission
+x = 4
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_riseofthenationalists } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Nationalism Our Socialism
+focus = { 
+id = ITA_nationalismoursocialism
+icon = GFX_focus_generic_italy_first
+x = 4
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_nationalistblueshirts } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Seize Private Property
+focus = { 
+id = ITA_seizeprivateproperty
+icon = GFX_focus_prc_agrarian_socialism
+x = 0
+y = 5
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_establishworkercollectives } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for Establish Worker Collectives
+focus = { 
+id = ITA_establishworkercollectives
+icon = GFX_goal_generic_soviet_construction
+x = 0
+y = 4
+cost = 10
+available_if_capitulated = yes 
+prerequisite = { focus = ITA_embracemarxistideals } 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#Focus for French Arms Deals
+focus = { 
+id = ITA_frencharmsdeals
+icon = GFX_goal_unknown
+x = 16
+y = 1
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+#complete_tooltip
+#minus consumer goods
+#minus 10k guns
+#plus stability
+  
+
+ } 
+
+#Focus for French-Italian Military Exercises
+focus = { 
+id = ITA_frenchitalianmilitaryexercises
+icon = GFX_focus_generic_little_entente
+x = 16
+y = 2
+cost = 10
+available_if_capitulated = yes 
+ai_will_do = { 
+ factor = 1
+ } 
+
+ } 
+
+#End of focuses 
+ }

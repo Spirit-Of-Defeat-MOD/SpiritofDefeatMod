@@ -1,0 +1,70 @@
+﻿###########################
+# newfoundland Events
+###########################
+
+add_namespace = newfoundland
+
+# Prime Minister dies
+country_event = {
+	id = newfoundland.1
+	title = newfoundland.1.t
+	desc = newfoundland.1.d
+	picture = GFX_report_event_generic_funeral
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NEW
+		has_government = democratic
+		date > 1936.2.30
+		has_start_date < 1936.01.02
+	}	
+
+	mean_time_to_happen = {
+		days = 30
+		modifier = {
+			factor = 0.5
+			date > 1936.2.30
+		}
+		modifier = {
+			factor = 0.2
+			date > 1939.1.1
+		}
+	}
+
+	option = {
+		name = newfoundland.1.a
+		kill_country_leader = yes
+	}
+}
+
+country_event = {
+        id = newfoundland.2
+        title = newfoundland.2.t
+        desc = newfoundland.2.d
+        picture = GFX_report_event_generic_sign_treaty2
+ 
+        fire_only_once = yes
+
+        trigger = {
+		tag = NEW
+		has_government = democratic
+                FRA = { exists = yes }
+		FRA = { has_capitulated = yes }
+	}	
+   
+        mean_time_to_happen = {
+		days = 1
+		}
+	}
+
+        option = {
+	       name = newfoundland.2.a
+               NEW = { 
+			transfer_state = 730
+               add_opinion_modifier = { target = FRA modifier = medium_decrease }
+	}
+        option = {
+	       name = newfoundland.2.b
+	}
+}

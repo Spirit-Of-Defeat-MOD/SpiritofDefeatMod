@@ -1,0 +1,24 @@
+
+state={
+	id=769
+	name="STATE_769"
+	manpower = 807660
+	resources={
+		chromium=19 # was: 26
+	}
+	
+	state_category = rural
+
+	history={
+		owner = KON
+		victory_points = { 9833 30 }
+		add_core_of = TUR
+		add_core_of = GRE
+		add_core_of = KON
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		9833 11829
+	}
+}

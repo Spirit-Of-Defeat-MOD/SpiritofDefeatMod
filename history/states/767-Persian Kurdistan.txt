@@ -1,0 +1,20 @@
+
+state={
+	id=767
+	name="Eastern Kurdistan" # Hamadan
+	manpower = 796396
+	state_category = rural
+
+	history={
+		owner = KUR
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = KUR
+		add_core_of = PER
+	}
+
+	provinces={
+		2071 12861 10523 5098 9816 4943 829 12773
+	}
+}

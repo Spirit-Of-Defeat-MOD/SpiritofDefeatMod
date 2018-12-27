@@ -1,0 +1,31 @@
+state={
+	id=332
+	name="STATE_332"
+
+        resources={
+                oil=2 # was: 32
+	}
+	
+	state_category = rural
+
+	history={
+		owner = NEW
+		buildings = {
+			infrastructure = 1
+                        industrial_complex = 1
+                        arms_factory = 1
+			12503 = {
+				naval_base = 4
+			}
+		}
+		add_core_of = CAN
+                add_core_of = NEW
+
+	}
+
+	provinces={
+		1426 1785 4720 4787 12503 13165 13180 
+	}
+	manpower=27379
+	buildings_max_level_factor=1.000
+}

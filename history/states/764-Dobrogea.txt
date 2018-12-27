@@ -1,0 +1,35 @@
+
+state={
+	id=764
+	name="Dobrogea" #Dobrogea
+	manpower = 4461400
+	resources={
+		oil=44 # was: 70
+	}
+
+	state_category = city
+
+	history={
+		owner = ROM
+		victory_points = { 657 3 }
+		buildings = {
+			infrastructure = 6
+			arms_factory = 4
+			industrial_complex = 1
+			air_base = 3
+			657 = {
+				naval_base = 8
+			}
+			687 = {
+				naval_base = 1
+			}
+			dockyard = 1
+		}
+		add_core_of = ROM
+		add_claim_by = BUL
+	}
+
+	provinces={
+		657 687 3076 9635 
+	}
+}

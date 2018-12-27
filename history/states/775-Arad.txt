@@ -1,0 +1,27 @@
+state={
+	id=775
+	name="STATE_775"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 6
+
+		}
+		add_core_of = ROM
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		6697 6682 646 
+	}
+	
+	victory_points = {
+			6682 1 
+		}
+		
+	manpower=1026200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,28 @@
+state={
+	id=766
+	name="Nancy" #
+	manpower = 98000
+	
+	state_category = city
+	
+	resources={
+		steel=28 # was: 48
+	}
+
+	history={
+		owner = FRA
+		victory_points = {
+			11516 5 
+		}
+		buildings = {
+			infrastructure = 7
+			industrial_complex = 1
+			air_base = 5
+		}
+		add_core_of = FRA
+	}
+
+	provinces={
+		521 11516
+	}
+}
