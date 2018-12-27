@@ -8,12 +8,7 @@ state={
 
 	history={
 		owner = TUR
-		victory_points = {
-			9893 3 
-		}
-		victory_points = {
-			11746 1 
-		}
+		
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -25,6 +20,6 @@ state={
 	}
 
 	provinces={
-		806 886 3889 3921 6813 6956 9893 11746 11810 12029
+		3921 6813 6956 11810
 	}
 }

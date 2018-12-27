@@ -1,0 +1,30 @@
+
+state={
+	id=777
+	name="STATE_777"
+	manpower = 727198
+	
+	state_category = town
+
+	history={
+		owner = FRA
+		victory_points = {
+			9893 3 
+		}
+		victory_points = {
+			11746 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11746 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = TUR
+	}
+
+	provinces={
+		886 11746 12029 3889 9893 806
+	}
+}

@@ -26,7 +26,7 @@ state= {
 			}
 		}
 		add_core_of = TUR
-		add_core_of = BUL
+		add_claim_by = BUL
 	}
 	provinces=
 	{
