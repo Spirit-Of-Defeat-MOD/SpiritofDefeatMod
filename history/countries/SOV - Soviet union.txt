@@ -220,20 +220,37 @@ set_convoys = 50
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10 #shared between all parties, should add to 100
+		reformist_socialism = { 
+			popularity = 4 #shared between all parties, should add to 100
 		}
 
-		fascism = {
+		totalitarian_socialism = {
+			popularity = 12
+		}
+		
+		vanguard_communism = {
+			popularity = 64
+		}
+		
+		orthodox_marxism = {
+			popularity = 15
+		}
+		
+		national_collectivism = {
 			popularity = 2
 		}
 		
-		communism = {
-			popularity = 88
+		social_conservatism = {
+			popularity = 2
 		}
+		
+		social_liberalism = {
+			popularity = 1
+		}
+		
 	}
 	
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1933.7.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -253,29 +270,42 @@ add_ideas = {
 	home_of_revolution
 }
 create_country_leader = {
-	name = "Supreme Soviet"
+	name = "Vyacheslav Molotov"
 	desc = "POLITICS_SUPREME_SOVIET_DESC"
-	picture = "Portrait_SupremeSoviet.tga"
+	picture = "Portrait_Molotov.tga"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = molotovist
 	traits = {
 		dislikes_germany
 		permanent_revolutionary
 		dictator
-		anti-democratic
 		warmonger
 	}
 }
+
+create_country_leader = {
+	name = "Leon Trotsky"
+	desc = "POLITICS_SUPREME_SOVIET_DESC"
+	picture = "Portrait_SupremeSoviet.tga"
+	expire = "1953.3.1"
+	ideology = trotskyist
+	traits = {
+		dislikes_germany
+		permanent_revolutionary
+		dictator
+		warmonger
+	}
+}
+
 create_country_leader = {
 	name = "Lev Kamenev"
 	desc = "POLITICS_LEV_KAMENEV_DESC"
 	picture = "Portrait_Kamenev.tga"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninist
 	traits = {
 		dislikes_germany
 		dictator
-		anti-democratic
 	}
 }
 

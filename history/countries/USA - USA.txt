@@ -172,21 +172,25 @@ set_convoys = 400
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 99
+		social_conservatism = { 
+			popularity = 48
 		}
 
-		fascism = {
-			popularity = 0
+		social_liberalism = {
+			popularity = 48
 		}
 		
-		communism = {
+		orthodox_marxism = {
 			popularity = 1
 			#banned = no #default is no
 		}
+		
+		reformist_socialism = {
+			popularity = 1
+		}
 	}
 	
-	ruling_party = republican
+	ruling_party = social_liberalism
 	last_election = "1932.11.8"
 	election_frequency = 48
 	elections_allowed = yes
@@ -208,40 +212,27 @@ set_autonomy = {
 	autonomous_state =  autonomy_puppet
 }
 
-1939.1.1 = {
 
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 99
-			}
-
-			fascism = {
-				popularity = 0
-			}
-			
-			communism = {
-				popularity = 1
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.11.3"
-		election_frequency = 48
-		elections_allowed = yes
-	}
-}
 
 create_country_leader = {
 	name = "Andrew Mellon"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_Mellon.dds"
+	picture = "Portrait_Mellon.tga"
 	expire = "1947.1.1"
-	ideology = conservatism
+	ideology = market_liberal
 	traits = {
 		dealbroker
+		staunch_constitutionalist
+	}
+}
+
+create_country_leader = {
+	name = "Hugo Black"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_Black.tga"
+	expire = "1947.1.1"
+	ideology = conservative
+	traits = {
 		staunch_constitutionalist
 	}
 }
@@ -251,7 +242,7 @@ create_country_leader = {
 	desc = "POLITICS_WILLIAM_DUDLEY_PELLEY_DESC"
 	picture = "Portrait_USA_William_Dudley_Pelley.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivist_subtype
 	traits = {
 		
 	}
@@ -262,7 +253,7 @@ create_country_leader = {
 	desc = "POLITICS_EARL_BROWDER_DESC"
 	picture = "Portrait_USA_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = orthodox_marxist_subtype
 	traits = {
 		
 	}

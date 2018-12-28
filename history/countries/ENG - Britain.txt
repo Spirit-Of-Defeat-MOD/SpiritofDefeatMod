@@ -139,11 +139,11 @@ if = {
 
 	
 create_country_leader = {
-	name = "Neville Chamberlain"
+	name = "Leo Amery"
 	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Chamberlain.tga"
+	picture = "Portrait_Amery.tga"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservative
 	traits = {
 		
 	}
@@ -239,20 +239,32 @@ create_country_leader = {
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 97
+		social_conservatism = { 
+			popularity = 48
 		}
 
-		fascism = {
+		social_liberalism = {
+			popularity = 39
+		}
+		
+		reformed_socialism = {
+			popularity = 6
+		}
+		
+		monarchism = {
+			popularity = 4
+		}
+		
+		vanguard_communism = {
 			popularity = 2
 		}
 		
-		communism = {
+		national_collectivism = {
 			popularity = 1
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = yes ##suspended through duration of war, which is handled via event
@@ -285,9 +297,9 @@ add_to_faction = EIC
 create_country_leader = {
 	name = "Leo Amery"
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
-	picture = "Portrait_Britain_Winston_Churchill.dds"
+	picture = "Portrait_Amery.tga"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
@@ -299,7 +311,7 @@ create_country_leader = {
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Chamberlain.tga"
 	expire = "1938.1.1"
-	ideology = liberalism
+	ideology = social_liberalism
 	traits = {
 		
 	}

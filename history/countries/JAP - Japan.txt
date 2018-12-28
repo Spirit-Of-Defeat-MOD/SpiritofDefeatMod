@@ -210,7 +210,7 @@ set_politics = {
 			popularity = 0
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 100
 		}
 		
@@ -220,44 +220,20 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_collectivism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-			}
-
-			fascism = {
-				popularity = 100
-			}
-			
-			communism = {
-				popularity = 0
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = fascism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 
 create_country_leader = {
 	name = "Hirohito"
 	desc = "POLITICS_Hirohito_DESC"
-	picture = "Portrait_Hirohito.tga"
+	picture = "Portrait_Japan_Hirohito.dds"
 	expire = "1989.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		warrior_code
 		emperor_showa
@@ -281,7 +257,7 @@ create_country_leader = {
 	desc = "POLITICS_Hirohito_DESC"
 	picture = "GFX_Portrait_tetsu_katayama"
 	expire = "1989.1.1"
-	ideology = liberalism
+	ideology = social_liberal
 	traits = {
 	}
 }

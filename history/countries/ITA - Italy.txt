@@ -148,20 +148,24 @@ set_convoys = 200
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 16
+		social_conservatism = { 
+			popularity = 8
+		}
+		
+		monarchism = {
+			popularity = 8
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 82
 		}
 		
-		communism = {
+		orthodox_marxism = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = national_collectivism
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
@@ -175,7 +179,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Luigi_Federzoni.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		dictator
 		warmonger
@@ -187,7 +191,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "GFX_portrait_italy_ferruccio_parri"
 	expire = "1965.1.1"
-	ideology = socialism
+	ideology = reformist_socialism_subtype
 	traits = {
 		
 	}
@@ -198,7 +202,7 @@ create_country_leader = {
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
 	picture = "Portrait_Antonio_Giolitti"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = orthodox_marxist_subtype
 	traits = {
 		
 	}

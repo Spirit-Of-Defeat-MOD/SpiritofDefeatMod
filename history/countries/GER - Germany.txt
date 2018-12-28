@@ -215,24 +215,33 @@ create_import = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 05
 		}
 
-		fascism = {
-			popularity = 60
+		national_collectivism = {
+			popularity = 40
 		}
 		
-		communism = {
-			popularity = 15
+		vanguard_communism = {
+			popularity = 14
 			banned = yes #default is no
 		}
-		neutrality = {
+		
+		reformist_socialism = {
+			popularity = 1
+		}
+		
+		monarchism = {
 			popularity = 20
-		}	
+		}
+		
+		utilitarian_despotism = {
+			popularity = 20
+		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = utilitarian_despotism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -261,7 +270,7 @@ create_country_leader = {
 	desc = "POLITICS_ADOLF_HITLER_DESC"
 	picture = "Portrait_Ernst_Rohm.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_collectivism_subtype
 	traits = {
 		dictator
 		warmonger
@@ -273,7 +282,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Germany_Konrad_Adenauer.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 	}
 }
@@ -283,7 +292,7 @@ create_country_leader = {
 	desc = "POLITICS_KONRAD_ADENAUER_DESC"
 	picture = "Portrait_Von_Schleicher.tga"
 	expire = "1965.1.1"
-	ideology = oligarchism
+	ideology = military_junta
 	traits = {
 	}
 }
@@ -293,7 +302,7 @@ create_country_leader = {
 	desc = "POLITICS_WILHELM_PIECK_DESC"
 	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = anti-revisionist
 	traits = {
 		#stalins_puppet # This will now be added in on_actions if SOV releases the country as a puppet via action or war conference
 		exiled # He left in 1933 so he should still be exiled

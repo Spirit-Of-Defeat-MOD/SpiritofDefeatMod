@@ -40,20 +40,29 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 02
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 22
 		}
 		
-		communism = {
-			popularity = 76
+		orthodox_marxism = {
+			popularity = 70
 		}
+		
+		reformist_socialism = {
+			popularity = 4
+		}
+		
+		vanguard_communism = {
+			popularity = 2
+		}
+		
 	}
 
-	ruling_party = communism
+	ruling_party = orthodox_marxism
 	last_election = "1934.11.10"
 	election_frequency = 48
 	elections_allowed = no
@@ -64,18 +73,18 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		
 	}
 }
 
 create_country_leader = {
-	name = "Nikita Khrushchev"
+	name = "Georgy Pyatakov"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = orthodox_marxism_subtype
 	traits = {
 		
 	}
@@ -86,7 +95,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/SOV/Portrait_Soviet_Generic_3.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		cornered_fox
 	}
