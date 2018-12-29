@@ -1,41 +1,51 @@
 focus_tree = { 
-id = italian_focus
-country = { 
-factor = 0 
-modifier = { 
-add = 10 
-tag = ITA 
-} 
-} 
+        id = italian_focus
+
+        country = { 
+                factor = 0 
+
+                modifier = { 
+                        add = 10 
+                        tag = ITA 
+                } 
+        } 
+
+        default = no
+
 #Focus for Graft
-focus = { 
-id = ITA_graft
-icon = GFX_goal_unknown
-x = 6
-y = 0
-cost = 10
-available_if_capitulated = yes 
-ai_will_do = { 
- factor = 1
- } 
+        focus = { 
+                id = ITA_graft
+                icon = GFX_goal_unknown
+                x = 6
+                y = 0
+                cost = 10
+                available_if_capitulated = yes 
+                ai_will_do = { 
+                        factor = 1
+                } 
+         
+                completion_reward = {
+			add_political_power = 50
+		}
+	}
 
- } 
+        focus = { 
+                id = ITA_stepsdown
+                icon = GFX_goal_unknown
+                x = 2
+                y = 1
+                cost = 10
+                available_if_capitulated = yes 
+                ai_will_do = { 
+                        factor = 1
+                } 
 
-#Focus for Steps Down
-focus = { 
-id = ITA_stepsdown
-icon = GFX_goal_unknown
-x = 2
-y = 1
-cost = 10
-available_if_capitulated = yes 
-ai_will_do = { 
- factor = 1
- } 
+                completion_reward = {
+			retire_country_leader = yes
+                        add_stability = -0.20
+		}
+	}
 
- } 
-
-#Focus for Emergency Elections
 focus = { 
 id = ITA_emergencyelections
 icon = GFX_goal_unknown
@@ -43,6 +53,7 @@ x = 2
 y = 2
 cost = 10
 available_if_capitulated = yes 
+prerequisite = { focus = ITA_stepsdown } 
 ai_will_do = { 
  factor = 1
  } 
@@ -71,6 +82,7 @@ x = 4
 y = 3
 cost = 10
 available_if_capitulated = yes 
+prerequisite = { focus = ITA_emergencyelections } 
 ai_will_do = { 
  factor = 1
  } 
@@ -85,6 +97,7 @@ x = 0
 y = 3
 cost = 10
 available_if_capitulated = yes 
+prerequisite = { focus = ITA_emergencyelections } 
 ai_will_do = { 
  factor = 1
  } 
@@ -98,7 +111,8 @@ icon = GFX_goal_support_democracy
 x = 2
 y = 3
 cost = 10
-available_if_capitulated = yes 
+available_if_capitulated = yes
+prerequisite = { focus = ITA_emergencyelections }  
 ai_will_do = { 
  factor = 1
  } 
