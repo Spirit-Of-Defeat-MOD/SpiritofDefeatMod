@@ -105,20 +105,20 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 93
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 4
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 3
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1933.4.26"
 	election_frequency = 48
 	elections_allowed = yes
@@ -132,7 +132,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTON_MUSSERT_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_HENDRIKUS_COLJIN_DESC"
 	picture = "GFX_portrait_holland_hendrikus_colijn"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		#
 	}

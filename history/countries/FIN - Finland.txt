@@ -88,24 +88,24 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_liberalism = { 
 			popularity = 10
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 10
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 1
 		}
 
-		neutrality = {
+		social_conservatism = {
 			popularity = 79
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = social_conservatism
 	last_election = "1933.7.1"
 	election_frequency = 36
 	elections_allowed = yes
@@ -143,7 +143,7 @@ create_country_leader = {
 	desc = "POLITICS_RISTO_HEIKKI_RYT_DESC"
 	picture = "Portrait_Finland_Risto_Heikki_Ryti.dds"
 	expire = "1965.1.1"
-	ideology = liberalism
+	ideology = conservative
 	traits = {
 		#
 	}
@@ -154,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_AIMO_AALTONEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -165,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_VILHO_ANNALA_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}

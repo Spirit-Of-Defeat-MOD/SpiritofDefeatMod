@@ -79,25 +79,22 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		social_conservatism = { 
+			popularity = 22
 		}
 
-		fascism = {
-			popularity = 15
+		national_collectivism = {
+			popularity = 16
 		}
 		
-		communism = {
-			popularity = 60
+		totalitarian_socialism = {
+			popularity = 62
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
-			popularity = 5
-		}
 	}
 	
-	ruling_party = communism
+	ruling_party = totalitarian_socialism
 	last_election = "1932.5.21"
 	election_frequency = 48
 	elections_allowed = no
@@ -137,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "Portrait_Jaan_Anvelt.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = anti_revisionist
 	traits = {
 		#
 	}

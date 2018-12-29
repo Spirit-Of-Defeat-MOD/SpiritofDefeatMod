@@ -11,7 +11,7 @@ state={
 
 
 	history={
-		owner = SAU
+		owner = RAJ
 		victory_points = {
 			7960 1 
 		}
@@ -26,6 +26,7 @@ state={
 		}
  
                 add_core_of = SAU
+				add_core_of = RAJ
 	}
 
 	provinces={

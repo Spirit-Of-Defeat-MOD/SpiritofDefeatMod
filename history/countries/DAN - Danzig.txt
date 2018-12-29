@@ -11,15 +11,15 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social-conservatism = { 
 			popularity = 10
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 10
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 10
 		}
 		

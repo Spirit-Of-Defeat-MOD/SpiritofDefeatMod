@@ -11,19 +11,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_liberalism = { 
 			popularity = 10
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 10
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 10
 		}
 		
-		neutrality = { 
+		social_conservatism = { 
 			popularity = 70
 		}
 	}
@@ -41,7 +41,7 @@ create_country_leader = {
 	desc = "POLITICS_IVO_ANDRIC_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservative
 	traits = {
 		#
 	}
