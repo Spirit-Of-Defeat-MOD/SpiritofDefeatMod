@@ -428,6 +428,7 @@ focus_tree = {
 		x = 12
 		y = 5
 		cost = 4
+                mutually_exclusive = { focus = GER_targetschleicher }
 		prerequisite = { focus = GER_framegenerals }
 		ai_will_do = {
 			factor = 1
@@ -460,6 +461,7 @@ focus_tree = {
 		x = 10
 		y = 5
 		cost = 4
+                mutually_exclusive = { focus = GER_targetrommel }
 		prerequisite = { focus = GER_framegenerals }
 		ai_will_do = {
 			factor = 1
