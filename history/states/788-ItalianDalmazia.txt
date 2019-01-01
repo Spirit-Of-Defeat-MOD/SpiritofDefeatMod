@@ -1,33 +1,25 @@
 
 state={
-	id=103
-	name="STATE_103" # Dalmatia
+	id=788
+	name="STATE_788" # Italian Dalmazia
 	manpower = 1431700
 
 	state_category = large_town
 
 
 	history={
-		owner = CRO
-		victory_points = {
-			3924 1 
-		}
+		owner = ITA
+		
 		buildings = {
 			infrastructure = 5
 			dockyard = 1
 			industrial_complex = 3
-			3924 = {
-				naval_base = 3
-			}
-			6889 = {
-				naval_base = 1
-			}
 		}
 		add_core_of = ITA
 		add_core_of = CRO
 	}
 
 	provinces={
-		984 3601 3868 3924 3974 6611 6889 11816
+		591 11564 11901 
 	}
 }
