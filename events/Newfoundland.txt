@@ -36,7 +36,6 @@ country_event = {
 		name = newfoundland.1.a
 		kill_country_leader = yes
 	}
-}
 
 country_event = {
         id = newfoundland.2
