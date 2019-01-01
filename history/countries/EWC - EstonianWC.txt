@@ -100,34 +100,7 @@ set_politics = {
 	elections_allowed = no
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 20
-			}
-
-			fascism = {
-				popularity = 15
-			}
-			
-			communism = {
-				popularity = 60
-				#banned = no #default is no
-			}
-			
-			neutrality = { 
-				popularity = 5
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1938.2.25"
-		election_frequency = 48
-		elections_allowed = no
-	}
-}
 
 create_country_leader = {
 	name = "Jaan Anvelt"

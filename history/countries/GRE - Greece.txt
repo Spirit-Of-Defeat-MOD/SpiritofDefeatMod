@@ -89,24 +89,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 10
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 23
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 2
 		}
 		
-		neutrality = { 
+		utilitarian_despotism = { 
 			popularity = 65
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = utilitarian_despotism
 	last_election = "1935.6.9"
 	election_frequency = 12
 	elections_allowed = yes # none after offset 1
@@ -118,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_IOANNIS_METAXAS_DESC"
 	picture = "Portrait_Greece_Ioannis_Metaxas.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = police_state
 	traits = {
 		#
 	}
@@ -129,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_MARKOS_VAFIADIS_DESC"
 	picture = "Portrait_Greece_Markos_Vafiadis.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}
@@ -140,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTINOS_TSALDARIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		#
 	}
@@ -151,7 +151,7 @@ create_country_leader = {
 	desc = "POLITICS_GEORGIOS_KOSMIDIS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}

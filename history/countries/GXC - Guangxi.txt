@@ -86,11 +86,11 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		neutrality = { 
+		utilitarian_despotism = { 
 			popularity = 100
 		}
 	}
-	ruling_party = neutrality
+	ruling_party = utilitarian_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -101,7 +101,7 @@ create_country_leader = {
 	desc = "POLITICS_LI_ZONGREN_DESC"
 	picture = "gfx/leaders/GXC/Portrait_Guanxi_Clique_Li_Zongren.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = warlord
 	traits = {
 		#
 	}
