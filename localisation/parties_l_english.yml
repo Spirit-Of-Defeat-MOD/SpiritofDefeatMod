@@ -89,11 +89,6 @@
  FRA_democratic_party:0 "Parti Radical"
  FRA_neutrality_party:0 "Action Francais
  FRA_fascism_party:0 "Mouvement Franciste"
- SOV_vanguard_communism_party:0 "All-Union Communist Party"
- SOV_totalitarian_socialism_party:0 "All-Union Communist Party"
- SOV_orthodox_marxism:0 "All-Union Communist Party"
- SOV_democratic_party:0 "Trudoviks"
- SOV_fascism_party:0 "Black Hundreds"
  AUS_communism_party:0 "KPÖ"
  AUS_communism_party_long:0 "Kommunistische Partei Österreichs"
  AUS_democratic_party:0 "SDAPÖ"
