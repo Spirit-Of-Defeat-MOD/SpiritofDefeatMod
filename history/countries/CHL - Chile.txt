@@ -78,7 +78,7 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		social_liberalism = { 
 			popularity = 78
 		}
 
@@ -96,7 +96,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = social_conservatism
+	ruling_party = social_liberalism
 	last_election = "1932.10.30"
 	election_frequency = 72  #but 4 years after this one in 1938.
 	elections_allowed = yes
@@ -107,7 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = conservative
+	ideology = social_liberal
 	traits = {
 		#
 	}
