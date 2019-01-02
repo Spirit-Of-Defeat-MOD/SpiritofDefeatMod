@@ -1,157 +1,6 @@
 #you dont know how long this took me
+#It shouldnt have taken long -kstar
 ideologies = {
-	
-	reformist_socialism = {
-	
-		types = {
-			
-			reformist_socialism_subtype = {
-			}
-			democratic_socialist = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_REFORMIST_SOCIALISM_1"
-			"FACTION_NAME_REFORMIST_SOCIALISM_2"
-			"FACTION_NAME_REFORMIST_SOCIALISM_3"
-			"FACTION_NAME_REFORMIST_SOCIALISM_4"
-			"FACTION_NAME_REFORMIST_SOCIALISM_5"
-			"FACTION_NAME_REFORMIST_SOCIALISM_6"
-		}
-		
-		color = { 255 0 153 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-
-        social_liberalism = {
-	
-		types = {
-			
-			social_liberalism_subtype = {
-			}
-			social_liberal = {
-			}
-			market_liberal = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_LIBERALISM_1"
-			"FACTION_NAME_SOCIAL_LIBERALISM_2"
-			"FACTION_NAME_SOCIAL_LIBERALISM_3"
-			"FACTION_NAME_SOCIAL_LIBERALISM_4"
-			"FACTION_NAME_SOCIAL_LIBERALISM_5"
-			"FACTION_NAME_SOCIAL_LIBERALISM_6"
-		}
-		
-		color = { 226 191 49 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
-
-        social_conservatism = {
-	
-		types = {
-			
-			social_conservatism_subtype = {
-			}
-			conservative = {
-			}
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_SOCIAL_CONSERVATISM_1"
-			"FACTION_NAME_SOCIAL_CONSERVATISM_2"
-			"FACTION_NAME_SOCIAL_CONSERVATISM_3"
-			"FACTION_NAME_SOCIAL_CONSERVATISM_4"
-			"FACTION_NAME_SOCIAL_CONSERVATISM_5"
-			"FACTION_NAME_SOCIAL_CONSERVATISM_6"
-		}
-		
-		color = { 0 76 153 }
-		
-		rules = {
-			can_declare_war_on_same_ideology = no
-			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-		}
-		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
-		
-		modifiers = {
-			generate_wargoal_tension = 1.00
-			join_faction_tension = 0.80
-			lend_lease_tension = 0.50
-			send_volunteers_tension = 0.50
-			guarantee_tension = 0.25
-			take_states_cost_factor = 0.25
-			annex_cost_factor = 0.5
-		}
-		
-		faction_modifiers = {
-			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
-		}
-		ai_democratic = yes # uses the democratic AI behaviour
-	}
 
 ###############################################################################################
 
@@ -281,6 +130,158 @@ ideologies = {
 		}
 
 	}
+	
+	reformist_socialism = {
+	
+		types = {
+			
+			reformist_socialism_subtype = {
+			}
+			democratic_socialist = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_REFORMIST_SOCIALISM_1"
+			"FACTION_NAME_REFORMIST_SOCIALISM_2"
+			"FACTION_NAME_REFORMIST_SOCIALISM_3"
+			"FACTION_NAME_REFORMIST_SOCIALISM_4"
+			"FACTION_NAME_REFORMIST_SOCIALISM_5"
+			"FACTION_NAME_REFORMIST_SOCIALISM_6"
+		}
+		
+		color = { 255 0 153 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+
+    social_liberalism = {
+	
+		types = {
+			
+			social_liberalism_subtype = {
+			}
+			social_liberal = {
+			}
+			market_liberal = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_LIBERALISM_1"
+			"FACTION_NAME_SOCIAL_LIBERALISM_2"
+			"FACTION_NAME_SOCIAL_LIBERALISM_3"
+			"FACTION_NAME_SOCIAL_LIBERALISM_4"
+			"FACTION_NAME_SOCIAL_LIBERALISM_5"
+			"FACTION_NAME_SOCIAL_LIBERALISM_6"
+		}
+		
+		color = { 226 191 49 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
+
+    social_conservatism = {
+	
+		types = {
+			
+			social_conservatism_subtype = {
+			}
+			conservative = {
+			}
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_SOCIAL_CONSERVATISM_1"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_2"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_3"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_4"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_5"
+			"FACTION_NAME_SOCIAL_CONSERVATISM_6"
+		}
+		
+		color = { 0 76 153 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
+			can_send_volunteers = no
+			can_puppet = no
+			can_lower_tension = yes
+			can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 1.00
+			join_faction_tension = 0.80
+			lend_lease_tension = 0.50
+			send_volunteers_tension = 0.50
+			guarantee_tension = 0.25
+			take_states_cost_factor = 0.25
+			annex_cost_factor = 0.5
+		}
+		
+		faction_modifiers = {
+			faction_trade_opinion_factor = 0.50 #plus 50% trade opinion
+		}
+		ai_democratic = yes # uses the democratic AI behaviour
+	}
 
 ############################################################################################
 
@@ -364,7 +365,7 @@ ideologies = {
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
 
-        national_collectivism = {
+    national_collectivism = {
 	
 		types = {
 		
