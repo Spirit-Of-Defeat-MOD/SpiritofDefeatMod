@@ -79,16 +79,20 @@ set_politics = {
 
 	parties = {
 		social_liberalism = { 
-			popularity = 90
+			popularity = 78
 		}
 
-		national_collectivism = {
-			popularity = 6
+		utilitarian_despotism = {
+			popularity = 19
 		}
 		
-		orthodox_marxism = {
-			popularity = 4
+		vanguard_communism = {
+			popularity = 2
 			#banned = no #default is no
+		}
+		
+		national_collectivism = {
+			popularity = 1
 		}
 	}
 	
@@ -103,29 +107,7 @@ create_country_leader = {
 	desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
 	picture = "GFX_Portrait_chile_arturo_alessandri"
 	expire = "1965.1.1"
-	ideology = social_liberalism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jorge González von Marées"
-	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
-	expire = "1965.1.1"
-	ideology = national_collectivism_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Carlos Contreras Labarca"
-	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
-	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
-	expire = "1965.1.1"
-	ideology = orthodox_marxism_subtype
+	ideology = social_liberal
 	traits = {
 		#
 	}
@@ -172,7 +154,7 @@ create_country_leader = {
 	desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}
@@ -183,7 +165,7 @@ create_country_leader = {
 	desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
 	picture = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}

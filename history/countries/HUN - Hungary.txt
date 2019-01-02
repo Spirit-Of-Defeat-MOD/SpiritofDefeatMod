@@ -127,21 +127,21 @@ if = {
 
 set_politics = {
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 25
 		}
-		fascism = {
+		national_collectivism = {
 			popularity = 31
 		}
 		neutrality = {
 			popularity = 0
 		}
-		communism = {
+		vanguard_communism = {
 			popularity = 44
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1935.3.31"
 	election_frequency = 48
 	elections_allowed = yes
@@ -157,7 +157,7 @@ if = {
 		desc = "POLITICS_MIKLOS_HORTHY_DESC"
 		picture = "Portrait_Hungary_Miklos_Horthy.dds"
 		expire = "1965.1.1"
-		ideology = oligarchism
+		ideology = national_collectivism-subtype
 		traits = {
 			fascist_sympathies
 			anti_communist
@@ -183,11 +183,11 @@ if = {
 }
 
 create_country_leader = {
-	name = "Mátyás Rákosi"
+	name = "Bela Kun"
 	desc = "POLITICS_MATYAS_RAKOSKI_DESC"
 	picture = "Portrait_Hungary_Matyas_Rakoski.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninism
 	traits = {
 		#
 	}

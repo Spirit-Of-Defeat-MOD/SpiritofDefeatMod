@@ -51,25 +51,25 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 0
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 0
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 0
 			banned = yes
 		}
 		
-		neutrality = { 
+		utilitarian_despotism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = utilitarian_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -80,7 +80,7 @@ create_country_leader = {
 	desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
 	picture = "Portrait_Zhang.tga"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = warlord
 	traits = {
 		#
 	}

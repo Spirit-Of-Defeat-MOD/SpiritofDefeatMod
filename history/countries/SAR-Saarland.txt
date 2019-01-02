@@ -107,15 +107,15 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			social_conservatism = { 
 				popularity = 20
 			}
 
-			fascism = {
+			national_collectivism = {
 				popularity = 15
 			}
 			
-			communism = {
+			vanguard_communism = {
 				popularity = 60
 				#banned = no #default is no
 			}
@@ -148,7 +148,7 @@ create_country_leader = {
 	desc = "POLITICS_KONSTANTIN_PATS_DESC"
 	picture = "Portrait_Pirro.tga"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subgroup
 	traits = {
 		#
 	}

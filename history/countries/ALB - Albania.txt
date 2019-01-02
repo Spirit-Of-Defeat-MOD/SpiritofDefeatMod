@@ -11,24 +11,24 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 20
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 20
 		}
 		
-		communism = {
-			popularity = 30
+		totalitarian_socialism = {
+			popularity = 45
 		}
 		
-		neutrality = { 
-			popularity = 30
+		reformist_socialism = { 
+			popularity = 15
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = totalitarian_socialism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -52,7 +52,7 @@ create_country_leader = {
 	desc = "POLITICS_HOXHA_DESC"
 	picture = "Portrait_Hoxha.tga"
 	expire = "1965.1.1"
-	ideology = anti_revisionism
+	ideology = hoxhaist
 	traits = {
 		#
 	}

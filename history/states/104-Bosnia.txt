@@ -2,7 +2,7 @@
 state={
 	id=104
 	name="STATE_104"
-	manpower =2457400
+	manpower =2057400
 	
 	
 	state_category = town
@@ -13,9 +13,7 @@ state={
 
 	history={
 		owner = BOS
-		victory_points = {
-			11899 5 
-		}
+		
 		buildings = {
 			infrastructure = 5
 			industrial_complex = 2
@@ -26,6 +24,6 @@ state={
 	}
 
 	provinces={
-		3985 6614 6799 6957 9586 11899 9922 11572
+		3985 6614 6957 9586 9922
 	}
 }

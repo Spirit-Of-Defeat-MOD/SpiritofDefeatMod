@@ -115,12 +115,12 @@ set_politics = {
 			popularity = 0
 		}
 
-		neutrality = {
+		monarchism = {
 			popularity = 100
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1935.11.14"
 	election_frequency = 48
 	elections_allowed = no
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = "POLITICS_KING_EDWARD_VIII_DESC"
 	picture = "gfx/leaders/EIC/Portrait_East_Indies_King_Edward.dds"
 	expire = "1965.1.1"
-	ideology = despotism
+	ideology = monarchism_subtype
 	traits = {
 		inexperienced_imperialist
 	}

@@ -40,19 +40,19 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		national_collectivism = { 
 			popularity = 15
 		}
 
-		neutrality = {
+		reformist_socialism = {
 			popularity = 20
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 60
 		}
 
-		fascism = { 
+		social_conservatism = { 
 			popularity = 5
 		}
 	}
@@ -63,7 +63,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
     expire = "1965.1.1"
-    ideology = centrism
+    ideology = conservative
     traits = {
         #
     }
@@ -74,7 +74,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
     expire = "1965.1.1"
-    ideology = fascism_ideology
+    ideology = national_collectivism_subtype
     traits = {
         #
     }
@@ -85,7 +85,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
     expire = "1965.1.1"
-    ideology = stalinism
+    ideology = leninism
     traits = {
         #
     }
@@ -96,7 +96,7 @@ create_country_leader = {
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
     expire = "1965.1.1"
-    ideology = socialism
+    ideology = reformist_socialism_subtype
     traits = {
         #
     }

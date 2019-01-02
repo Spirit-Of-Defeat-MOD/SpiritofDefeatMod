@@ -325,11 +325,17 @@ ideologies = {
 		
 			utilitarian_despotism_subtype = {
 			}
+			
 			military_junta = {
 			}
+			
 			paternal_state = {
 			}
+			
 			police_state = {
+			}
+			
+			warlord = {
 			}
 		}
 		
