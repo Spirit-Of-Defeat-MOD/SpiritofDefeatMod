@@ -73,21 +73,19 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 30
+		social_conservatism = { 
+			popularity = 70
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 15
 		}
 		
-		communism = {
+		totalitarian_socialism = {
 			popularity = 15
 		}
 		
-		neutrality = { 
-			popularity = 50
-		}
+		
 	}
 	
 	ruling_party = neutrality
@@ -140,7 +138,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTANAS_SNIECKUS_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = anti_revisionism
 	traits = {
 		#
 	}
@@ -151,7 +149,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}

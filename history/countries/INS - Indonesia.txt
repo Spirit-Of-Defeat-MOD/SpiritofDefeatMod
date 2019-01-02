@@ -26,20 +26,18 @@ set_convoys = 25
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 10
+		social_conservatism = { 
+			popularity = 60
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 10
 		}
 		
-		communism = {
+		orthodox_marxism = {
 			popularity = 30
 		}
-		neutrality = {
-			popularity = 50
-		}
+		
 	}
 }
 
@@ -48,7 +46,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = socialism #Marhaenism his own unique mix of stuff
+	ideology = reformist_socialism #Marhaenism his own unique mix of stuff
 	traits = {
 		
 	}
@@ -59,7 +57,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
 	expire = "1953.3.1"
-	ideology = conservatism 
+	ideology = conservative 
 	traits = {
 		
 	}
@@ -70,7 +68,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = trotskyism
 	traits = {
 		
 	}
@@ -81,7 +79,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+	ideology = national_collectivism_subtype
 	traits = {
 		
 	}

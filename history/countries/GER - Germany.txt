@@ -248,7 +248,7 @@ set_politics = {
 
 }
 
-create_faction = Mitteleuropäische_Koalition
+create_faction = ME
 add_to_faction = GER
 add_to_faction = LIT
 add_to_faction = LIV

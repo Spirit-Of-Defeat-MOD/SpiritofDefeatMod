@@ -62,16 +62,16 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_liberalism = { 
 			popularity = 80
 		}
 
-		fascism = {
-			popularity = 0
+		national_collectivism = {
+			popularity = 4
 		}
 		
-		communism = {
-			popularity = 20
+		vanguard_communism = {
+			popularity = 16
 			#banned = no #default is no
 		}
 	}
@@ -86,7 +86,7 @@ create_country_leader = {
 	name = "David Ben-Gurion"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	ideology = liberalism
+	ideology = social_liberal
 	traits = {
 		#
 	}
@@ -96,7 +96,7 @@ create_country_leader = {
 	name = "Itzhak Gaster"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}

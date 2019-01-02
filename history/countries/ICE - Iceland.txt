@@ -79,20 +79,20 @@ set_stability = 0.75
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 96
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 2
 		}
 		
-		communism = {
+		orthodox_marxism = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
@@ -131,7 +131,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 	expire = "1965.1.1"
-	ideology = conservatism
+	ideology = conservative
 	traits = {
 		#
 	}
@@ -142,7 +142,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}
@@ -164,7 +164,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = trotskyism
 	traits = {
 		#
 	}

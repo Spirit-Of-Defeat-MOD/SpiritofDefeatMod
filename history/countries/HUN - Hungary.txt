@@ -147,6 +147,10 @@ set_politics = {
 	elections_allowed = yes
 }
 
+create_faction = Hun_Faction
+add_to_faction = SLO
+
+
 #Start Horty as neutral if DOD
 if = {
 	limit = {

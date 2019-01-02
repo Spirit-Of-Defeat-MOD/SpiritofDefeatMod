@@ -68,7 +68,7 @@ set_politics = {
                         banned = yes
 		}
 
-		neutrality = {
+		utilitarian_despotism = {
 			popularity = 100
 		}
 	}
@@ -84,7 +84,7 @@ create_country_leader = {
         desc = "POLITICS_CHIANG_KAI-SHEK_DESC"
 	picture = "Portrait_China_Chiang_Kai_Shek.dds"
 	expire = "1960.1.1"
-	ideology = despotism
+	ideology = utilitarian_despotism_subtype
 	traits = {
                 generallissimo
 	}
