@@ -1,0 +1,26 @@
+state={
+	id=792
+	name="STATE_792"
+	provinces={
+		1943 10315 10911 
+	}
+	
+	history={
+		owner = XIJ
+		add_core_of = SIK
+		add_core_of = XIJ
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+	}
+	
+	
+	manpower=231700
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

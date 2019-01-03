@@ -1,0 +1,26 @@
+state={
+	id=793
+	name="STATE_793"
+	provinces={
+		1838 
+	}
+	
+	history={
+		owner = SIK
+		add_core_of = SIK
+		add_claim_by = CHI
+		add_claim_by = PRC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+		}
+		victory_points = {
+			1838 3
+		}
+	}
+	
+	manpower=1430700
+	state_category=town
+	buildings_max_level_factor=1.000
+}

@@ -587,3 +587,8 @@ EIC = {
         color = rgb { 100 56 203 }
         color_ui = rgb { 100 56 203 }
 }
+
+XIJ = { 
+        color = rgb { 146 97 71 }
+        color_ui = rgb { 146 97 71 }
+}

@@ -126,3 +126,4 @@ LIV = "countries/Livonia.txt"
 MOZ = "countries/Military_Occupation.txt"
 EIC = "countries/East_Indies.txt"
 NEW = "countries/Newfoundland.txt"
+XIJ = "countries/Xinjiang Sultanate.txt

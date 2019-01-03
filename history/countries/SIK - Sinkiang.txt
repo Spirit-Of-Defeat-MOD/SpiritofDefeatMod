@@ -99,13 +99,13 @@ set_politics = {
 			banned = yes
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 100
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -116,7 +116,7 @@ create_country_leader = {
 	desc = "POLITICS_SHENG_SHICAI_DESC"
 	picture = "gfx/leaders/SIK/Portrait_Sinkiang_Sheng_Shicai.dds"
 	expire = "1965.1.1"
-	ideology = stalinism
+	ideology = leninist
 	traits = {
 		#
 	}
@@ -131,31 +131,4 @@ create_corps_commander = {
 	defense_skill = 2
 	planning_skill = 2
 	logistics_skill = 2
-}
-
-1939.1.1 = {
-	set_politics = {
-
-		parties = {
-			democratic = { 
-				popularity = 0
-				banned = yes
-			}
-
-			fascism = {
-				popularity = 0
-				banned = yes
-			}
-			
-			communism = {
-				popularity = 100
-				#banned = no #default is no
-			}
-		}
-		
-		ruling_party = communism
-		last_election = "1936.1.1"
-		election_frequency = 48
-		elections_allowed = no
-	}
 }
