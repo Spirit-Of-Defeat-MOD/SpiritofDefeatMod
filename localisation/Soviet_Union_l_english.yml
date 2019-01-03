@@ -1,0 +1,20 @@
+﻿l_english:
+
+ SOV_vanguard_communism_party:0 "VKP(L)"
+ SOV_vanguard_communism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Leninists) \n§g Founded by §YLev Kamenev§! after Lenin's death, The Leninist faction of the communist party seeks to continue on the path of §YLeninism§! to overthrow the capitalist ruling classes of the world through revolution.§!"
+ SOV_totalitarian_socialism_party:0 "VKP(M)"
+ SOV_totalitarian_socialism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Molotovists)"
+ SOV_orthodox_marxism_party:0 "VKP(T)"
+ SOV_orthodox_marxism_party_long:0 "Vsesoyuznaya kommunisticheskaya partiya (Trotskyists)"
+ SOV_reformist_socialism_party:0 "" 
+ SOV_social_liberalism_party:0 ""
+ SOV_social_conservatism_party:0 ""
+ SOV_monarchism_party:0 ""
+ SOV_utilitarian_despotism_party:0 ""
+ SOV_national_collectivism_party:0 ""
+ SOV_neutrality_party:0 ""
+
+
+#How to do party descriptions
+#\n§g Description.§!
+ 

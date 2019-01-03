@@ -1,0 +1,50 @@
+﻿division_template = {
+	name = "Royal Newfoundland Regiment"			# add Newfoundland artillery divisions
+	division_names_group = NEW_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+	        recon = { x = 0 y = 0 }
+	}
+}
+
+units = {
+	division = { "1st Newfoundland Royal Regiment"
+		division_name = { 
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 12505
+		division_template = "Royal Newfoundland Regiment"		
+		start_experience_factor = 0.2
+	}
+
+navy = {				
+		name = "Royal Newfoundland Navy"			
+		base = 12505
+		location = 12505 # St. John's
+		ship = { name = "HMNS Labrador" definition = destroyer equipment { =  submarine_1 = { amount = 1 owner = NEW version_name = "Labrador Class" } } } }
+	}				
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "NEW"
+		}
+		requested_factories = 1
+		progress = 0.40
+		efficiency = 100
+	}
+}

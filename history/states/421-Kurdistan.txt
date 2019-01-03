@@ -1,0 +1,20 @@
+
+state={
+	id=421
+	name="Southern Kurdistan"
+	manpower = 780278
+	
+	state_category = rural
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 3
+		}
+		add_core_of = PER
+	}
+
+	provinces={
+		5050 10774
+	}
+}
