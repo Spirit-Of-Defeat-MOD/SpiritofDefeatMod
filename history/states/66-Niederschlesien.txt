@@ -21,10 +21,17 @@ state={
 			air_base = 6
 		}
 		add_core_of = GER
-		add_core_of = POL
+
+		1939.1.1 = {
+			buildings = {
+				air_base = 10
+				arms_factory = 3
+				industrial_complex = 3
+			}
+		}
 	}
 
 	provinces={
-		552 3485 3545 6512 6534 9570
+		552 3283 3485 3510 3545 6462 6534 9470 9570
 	}
 }
