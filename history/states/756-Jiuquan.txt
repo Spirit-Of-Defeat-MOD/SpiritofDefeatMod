@@ -4,12 +4,14 @@ state={
 	name="STATE_756"
 
 	history={
-		owner = XSM
-		add_core_of = XSM
+		owner = GNM
+		add_core_of = GNM
 		add_core_of = CHI
 		add_core_of = PRC
 		buildings = {
 			infrastructure = 1
+			industrial_complex = 1
+			arms_factory = 1
 
 		}
 		1938.10.25 = {
