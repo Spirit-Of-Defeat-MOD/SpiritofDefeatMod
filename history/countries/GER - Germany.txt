@@ -309,6 +309,73 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Ernst Niekisch"
+	desc = "POLITICS_ERNST_NIEKISCH_DESC"
+	picture = "Portrait_Ernst_Niekisch.tga"
+	expire = "1965.1.1"
+	ideology = anti_revisionist
+	traits = {
+		#he is literally a nazbol lol#
+	}
+}
+
+create_country_leader = {
+	name = "Max Reimann"
+	desc = "POLITICS_MAX_REIMANN_DESC"
+	picture = "Portrait_Reimann.png"
+	expire = "1965.1.1"
+	ideology = vanguard_communism_subtype
+	traits = {
+		#commie#
+	}
+}
+
+create_country_leader = {
+	name = "Paul Levi"
+	desc = "POLITICS_PAUL_LEVI_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = trotskyist
+	traits = {
+		#no comment#
+	}
+}
+
+create_country_leader = {
+	name = "Hjalmar Schacht"
+	desc = "POLITICS_HJALMAR_SCHACHT_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = market_liberal
+	traits = {
+		#free market gang#
+	}
+}
+
+create_country_leader = {
+	name = "Otto Wels"
+	desc = "POLITICS_OTTO_WELS_DESC"
+	picture = "Portrait_Germany_Adolf_Hitler.dds"
+	expire = "1939.1.16"
+	ideology = democratic_socialist
+	traits = {
+		exiled
+		union_man
+	}
+}
+
+create_country_leader = {
+	name = "Alfred Hugenberg"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_Germany_Wilhelm_Pieck.dds"
+	expire = "1965.1.1"
+	ideology = monarchism_subtype
+	traits = {
+		#bring back the kaiser#
+	}
+}
+
 #create_country_leader = {
 #	name = "Otto Wels"
 #	desc = "POLITICS_OTTO_WELS_DESC"

@@ -12,7 +12,7 @@ state={
 	}
 
 	history={
-		owner = BOS
+		owner = CRO
 		victory_points = {
 			11899 5 
 		}
