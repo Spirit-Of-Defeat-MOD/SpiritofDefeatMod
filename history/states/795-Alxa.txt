@@ -1,0 +1,24 @@
+state={
+	id=795
+	name="STATE_795"
+	provinces={
+		3742 4783 5031 7511 7803 8055 8127 10724 10770 10899 12750 12776 13230 
+	}
+	
+	history={
+		owner = XSM
+		add_core_of = XSM
+		add_core_of = CHI
+		add_core_of = PRC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	
+	
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

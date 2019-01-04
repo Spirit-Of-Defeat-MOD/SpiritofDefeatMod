@@ -1,18 +1,13 @@
+
 state={
 	id=755
 	name="STATE_755"
-	provinces={
-		2053 2099 7997 10750 10796 10834 10865 12846 12890 13146
-	}
-	manpower=1000000
-	buildings_max_level_factor=1.000
-	state_category = pastoral
+
 	history={
-		owner = BEI
+		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
-                add_core_of = BEI
 		buildings = {
 			infrastructure = 1
 			industrial_complex = 1
@@ -22,7 +17,8 @@ state={
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger"
+						has_dlc = Waking the Tiger
+
 					}
 
 				}
@@ -36,4 +32,11 @@ state={
 		}
 
 	}
+
+	provinces={
+		2053 2099 5076 7997 10750 10796 10834 10865 12846 12890 13146 13227 13228 13229 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

@@ -1,0 +1,26 @@
+state={
+	id=797
+	name="STATE_797"
+	provinces={
+		1458 7314 7659 10880 
+	}
+	
+	history={
+		owner = BEI
+		add_core_of = PRC
+		add_core_of = CHI
+		add_core_of = BEI
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	
+	
+	manpower=76200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

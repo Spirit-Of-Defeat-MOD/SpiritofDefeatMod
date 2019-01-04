@@ -64,7 +64,7 @@ set_politics = {
 		}
 
 		fascism = {
-			popularity = 80
+			popularity = 0
 		}
 		
 		communism = {
@@ -73,14 +73,25 @@ set_politics = {
 		}
 
 		neutrality = {
-			popularity = 20
+			popularity = 100
 		}
 	}
 	
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
+}
+
+create_country_leader = {
+	name = "Prince Yondonwangchug"
+	desc = ""
+	picture = ""
+	expire = "1938.1.1"
+	ideology = despotism
+	traits = {
+		spirit_of_genghis
+	}
 }
 
 create_country_leader = {
