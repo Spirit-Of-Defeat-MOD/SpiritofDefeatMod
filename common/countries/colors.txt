@@ -597,3 +597,11 @@ GMN = {
         color = rgb { 107 109 74 }
         color_ui = rgb { 107 109 74 }
 }
+AEF = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
+AOF = {
+	color = rgb { 57 113 228 }
+	color_ui = rgb { 74 147 255 }
+}
