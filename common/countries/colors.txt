@@ -27,8 +27,8 @@ LUX = {
 BEL = { color 	 = rgb { 193 171 8  }
 		color_ui = rgb { 251 222 10 }
 	  }
-HOL = {	color = rgb { 203 138 74 }
-		color_ui = rgb { 255 179 96 }
+HOL = {	color = rgb { 200 100 31 }
+		color_ui = rgb { 245 123 38 }
 }
 CZE = {	color = rgb { 54 167 156 }
 		color_ui = rgb { 70 217 203 }
@@ -118,8 +118,8 @@ AFG = {
 	color_ui = rgb { 83 208 217 }
 }
 ARG = {
-	color = rgb { 145 157 236 }
-	color_ui = rgb { 189 204 255 }
+	color = rgb { 80 150 179 }
+	color_ui = rgb { 89 219 220 }
 }
 AST = {
 	color = rgb { 57 143 97 }
@@ -472,12 +472,12 @@ ISR = {
 	color_ui = rgb { 152  130  191 }
 }
 D01 = {
-	color = rgb { 200 100 31 }
-	color_ui = rgb { 245 123 38 }
+	color = rgb { 203 138 74 }
+	color_ui = rgb { 255 179 96 }
 }
 D02 = {
-	color = rgb { 80 150 179 }
-	color_ui = rgb { 89 219 220 }
+	color = rgb { 145 157 236 }
+	color_ui = rgb { 189 204 255 }
 }
 D03 = {
 	color = rgb { 92 92 197 }
@@ -587,16 +587,6 @@ EIC = {
         color = rgb { 100 56 203 }
         color_ui = rgb { 100 56 203 }
 }
-
-XIJ = { 
-        color = rgb { 146 97 71 }
-        color_ui = rgb { 146 97 71 }
-}
-
-GMN = { 
-        color = rgb { 107 109 74 }
-        color_ui = rgb { 107 109 74 }
-}
 AEF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 101 222 }
@@ -604,4 +594,12 @@ AEF = {
 AOF = {
 	color = rgb { 30 84 183 }
 	color_ui = rgb { 35 84 222 }
+}
+XIJ = { 
+        color = rgb { 146 97 71 }
+        color_ui = rgb { 146 97 71 }
+}
+GMN = { 
+        color = rgb { 107 109 74 }
+        color_ui = rgb { 107 109 74 }
 }
