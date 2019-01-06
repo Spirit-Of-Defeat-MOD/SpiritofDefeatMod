@@ -81,52 +81,26 @@ set_stability = 0.7
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 96
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 2
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1933.10.16"
 	election_frequency = 36
 	elections_allowed = yes
 }
 
-1939.1.1 = {
-	set_politics = {
 
-		parties = {
-			democratic = { 
-				popularity = 84
-			}
-
-			fascism = {
-				popularity = 2
-			}
-			
-			communism = {
-				popularity = 2
-			}
-
-			neutrality = {
-				popularity = 12
-			}
-		}
-		
-		ruling_party = democratic
-		last_election = "1936.10.19"
-		election_frequency = 36
-		elections_allowed = yes
-	}
-}
 
 create_country_leader = {
 	name = "Johan Nygaardsvold"
@@ -144,7 +118,7 @@ create_country_leader = {
 	desc = "POLITICS_VIDKUN_QUISLING_DESC"
 	picture = "Portrait_Norway_Vidkun_Quisling.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}
@@ -155,7 +129,7 @@ create_country_leader = {
 	desc = "POLITICS_JOHAN_LUDWIG_MOWINCKEL_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservative
 	traits = {
 		#
 	}
@@ -166,7 +140,7 @@ create_country_leader = {
 	desc = "POLITICS_ADAM_EGEDE_NISSEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}

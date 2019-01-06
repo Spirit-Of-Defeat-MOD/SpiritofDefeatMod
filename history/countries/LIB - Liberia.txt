@@ -63,11 +63,11 @@ set_politics = {
 			popularity = 100
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 0
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
