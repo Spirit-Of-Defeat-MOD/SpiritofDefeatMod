@@ -22,7 +22,7 @@ GER_orthodox_marxism_party:0 "KAPD"
 GER_orthodox_marxism_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands"
 
 #Ministers
-GER_military_council_hog:0 "Oberste Heeresleitung"
+GER_military_council_hog:0 "Oberste Heeresleitung \n§g The Supreme Army Command has been the General Chief of Staff since the days of the empire. It was disbanded after the empire dissolved. Ever since Kurt von Schleicher took over he revived the OHL, this time making it a council of loyal generals in order to legitimize his rule. Even though they de facto handle the government in reality they have no power at all.§!"
  
 GER_nationindisarray:0 "A Nation In Disarray"
 GER_nationindisarray_desc:0 "Since the end of the Great War, the German state has been left in a state of turmoil. Unstable coalition governments and an economy crippled by war reparations have torn apart what had once been a world power. With the socialists having won a narrow electoral majority, the Reichswehr have successfully orchestrated a coup against the democratic government."
