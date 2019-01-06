@@ -101,14 +101,53 @@ units = {
         division = { "Kurdish Rebels"
 		division_name = {
 			is_name_ordered = yes
-			name_order = 8
+			name_order = 10
 		}
 		location = 7530
 		division_template = "Kurdish Rebels"
 		start_experience_factor = 0.1
                 start_equipment_factor = 0.5
 	}
-}
+        division = { "Kurdish Rebels"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 7530
+		division_template = "Kurdish Rebels"
+		start_experience_factor = 0.1
+                start_equipment_factor = 0.5
+	}
+         division = { "Kurdish Rebels"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 876
+		division_template = "Kurdish Rebels"
+		start_experience_factor = 0.1
+                start_equipment_factor = 0.5
+	}
+         division = { "Kurdish Rebels"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 3714
+		division_template = "Kurdish Rebels"
+		start_experience_factor = 0.1
+                start_equipment_factor = 0.5
+	}
+         division = { "Kurdish Rebels"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 652
+		division_template = "Kurdish Rebels"
+		start_experience_factor = 0.01
+                start_equipment_factor = 0.2
+	}
 
 ### Starting Production ###
 instant_effect = {
