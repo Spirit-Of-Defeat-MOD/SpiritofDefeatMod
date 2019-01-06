@@ -221,6 +221,17 @@ create_country_leader = {
 	}
 }
 
+create_country_leader = {
+	name = "Heinrich Himmler"
+	desc = "POLITICS_ALFRED_HUGENBERG_DESC"
+	picture = "Portrait_Himmler.tga"
+	expire = "1965.1.1"
+	ideology = nihilistic_extremism_subtype
+	traits = {
+		#human extinction#
+	}
+}
+
 #create_country_leader = {
 #	name = "Otto Wels"
 #	desc = "POLITICS_OTTO_WELS_DESC"
