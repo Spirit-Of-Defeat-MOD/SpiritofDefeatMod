@@ -81,20 +81,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 97
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 1
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 2
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1935.10.22"
 	election_frequency = 48
 	elections_allowed = yes

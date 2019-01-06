@@ -11,7 +11,7 @@ state={
 	state_category = city
 
 	history={
-		owner = POL
+		owner = GER
 		buildings = {
 			infrastructure = 6
 		}

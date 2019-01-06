@@ -169,24 +169,24 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		democratic = { 
-			popularity = 20
+		social_conservatism = { 
+			popularity = 25
 		}
 
-		fascism = {
-			popularity = 18
+		national_collectivism = {
+			popularity = 23
 		}
 		
-		communism = {
-			popularity = 2
+		vnaguard_communism = {
+			popularity = 22
 		}
 		
-		neutrality = { 
-			popularity = 60
+		monarchism = { 
+			popularity = 30
 		}
 	}
 	
-	ruling_party = neutrality
+	ruling_party = monarchism
 	last_election = "1933.12.20"
 	election_frequency = 48
 	elections_allowed = yes
@@ -269,7 +269,7 @@ create_country_leader = {
 	desc = "POLITICS_ION_ANTONESCU_DESC"
 	picture = "Portrait_Romania_Ion_Antonescu.dds"
 	expire = "1965.1.1"
-	ideology = fascism_ideology
+	ideology = national_collectivism
 	traits = {
 		#
 	}
