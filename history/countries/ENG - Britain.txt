@@ -1,4 +1,4 @@
-﻿capital = 126
+capital = 126
 
 oob = "ENG_1936"
 
@@ -137,17 +137,6 @@ if = {
 		ENG_george_vi
 	}
 
-	
-create_country_leader = {
-	name = "Leo Amery"
-	desc = "POLITICS_NEVILLE_CHAMBERLAIN_DESC"
-	picture = "Portrait_Amery.tga"
-	expire = "1965.1.1"
-	ideology = conservative
-	traits = {
-		
-	}
-}
 	remove_ideas = george_v #Dead
 
 	complete_national_focus = limited_rearmament_focus
@@ -299,19 +288,29 @@ create_country_leader = {
 	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
 	picture = "Portrait_Amery.tga"
 	expire = "1965.1.1"
-	ideology = conservative
+	ideology = social_conservatism_subtype
 	traits = {
 		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
 	}
 }
 
+create_country_leader = {
+	name = "Stanley Baldwin"
+	desc = "POLITICS_STANLEY_BALDWIN_DESC"
+	picture = "gfx/leaders/ENG/stanley_baldwin.tga"
+	expire = "1965.1.1"
+	ideology = social_conservatism_subtype
+	traits = {
+		
+	}
+}
 
 create_country_leader = {
 	name = "Nevile Chamberlain"
 	desc = "POLITICS_STANLEY_BALDWIN_DESC"
 	picture = "gfx//leaders//ENG//Portrait_Chamberlain.tga"
 	expire = "1938.1.1"
-	ideology = social_liberalism
+	ideology = social_liberalism_subtype
 	traits = {
 		
 	}
