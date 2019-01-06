@@ -69,49 +69,38 @@ set_convoys = 10
 set_politics = {
 
 	parties = {
-		social_liberalism = { 
+		democratic = { 
 			popularity = 0
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 0
 		}
 		
-		orthodox_marxism = {
+		communism = {
 			popularity = 0
 		}
 		
-		monarchism  = { 
+		utilitarian_despotism = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = utilitarian_despotism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sheikh Mahmud Barzanji"
-	desc = "POLITICS_MAHMUD_BARZANJI_DESC"
-	picture = "gfx/leaders/.dds"
+	name = "Reza Shah Pahlavi"
+	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
+	picture = "Portrait_Iran_Reza_Shah_Pahlavi.dds"
 	expire = "1965.1.1"
-	ideology = monarchism_subtype
+	ideology = police_state
 	traits = {
 		#
 	}
-}
-
-create_corps_commander = {
-	name = "Hasan Arfa"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = {  desert_fox }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
 }
 
 # His son, who came to power 41
@@ -125,6 +114,17 @@ create_corps_commander = {
 #		#
 #	}
 #}
+
+create_country_leader = {
+	name = "Soleyman Mirza Eskandari"
+	desc = "POLITICS_SOLEYMAN_MIRZA_ESKANDARI_DESC"
+	picture = "gfx/leaders/South America/Portrait_South_America_Generic_land_1.dds"
+	expire = "1965.1.1"
+	ideology = anarchist_communism
+	traits = {
+		#
+	}
+}
 
 1939.1.1 = {
 	set_politics = {
@@ -152,4 +152,15 @@ create_corps_commander = {
 		election_frequency = 48
 		elections_allowed = no
 	}
+}
+
+create_corps_commander = {
+	name = "Hasan Arfa"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+	traits = {  desert_fox }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 3
+	planning_skill = 2
+	logistics_skill = 2
 }

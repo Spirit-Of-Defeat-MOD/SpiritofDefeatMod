@@ -65,20 +65,20 @@ set_stability = 0.8
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 92
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 3
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 5
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1934.6.3"
 	election_frequency = 36
 	elections_allowed = yes
@@ -88,15 +88,15 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			democratic = { 
+			social_conservatism = { 
 				popularity = 92
 			}
 
-			fascism = {
+			national_collectivism = {
 				popularity = 3
 			}
 			
-			communism = {
+			vanguard_communism = {
 				popularity = 5
 			}
 		}
@@ -112,7 +112,7 @@ set_politics = {
 		desc = "POLITICS_PIERRE_DUPONG_DESC"
 		picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
 		expire = "1965.1.1"
-		ideology = conservatism
+		ideology = conservative
 		traits = {
 			#
 		}
@@ -135,7 +135,7 @@ create_country_leader = {
 	desc = "POLITICS_DAMIAN_KRATZENBERG_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
 	expire = "1965.1.1"
-	ideology = nazism
+	ideology = national_collectivism_subtype
 	traits = {
 		#
 	}

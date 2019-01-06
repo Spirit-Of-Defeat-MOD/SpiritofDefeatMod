@@ -61,23 +61,23 @@ add_ideas = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 0
 			banned = yes
 		}
 
-		fascism = {
+		national_collectivism = {
 			popularity = 0
 			banned = yes
 		}
 		
-		communism = {
+		vanguard_communism = {
 			popularity = 100
 			#banned = no #default is no
 		}
 	}
 	
-	ruling_party = communism
+	ruling_party = vanguard_communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -88,7 +88,7 @@ create_country_leader = {
 	desc = "POLITICS_ANANDYN_AMAR_DESC"
 	picture = GFX_portrait_mon_anandyn_amar
 	expire = "1965.1.1"
-	ideology = marxism
+	ideology = leninism
 	traits = {
 		#
 	}

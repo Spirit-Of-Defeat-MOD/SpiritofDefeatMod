@@ -113,7 +113,7 @@ if = {
 set_politics = {
 
 	parties = {
-		democratic = { 
+		social_conservatism = { 
 			popularity = 100
 		}
 
@@ -127,7 +127,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = democratic
+	ruling_party = social_conservatism
 	last_election = "1935.11.27"
 	election_frequency = 36
 	elections_allowed = yes
@@ -149,7 +149,7 @@ create_country_leader = {
 	desc = "POLITICS_SIDNEY_HOLLAND_DESC"
 	picture = "GFX_NZL_sidney_holland"
 	expire = "1965.1.1"
-	ideology = centrism
+	ideology = conservative
 	traits = {
 		#
 	}
