@@ -23,6 +23,10 @@ set_technology = {
 	transport = 1
 }
 
+    declare_war_on = {
+		target = KUR
+		type = annex_everything
+	}
 
 1939.1.1 = {
 
