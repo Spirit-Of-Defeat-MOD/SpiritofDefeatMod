@@ -1,4 +1,4 @@
-﻿capital = 335 #Jakarta
+capital = 335 #Jakarta
 
 oob = "INS_1936"
 
@@ -27,26 +27,36 @@ set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 60
+			popularity = 50
 		}
 
-		national_collectivism = {
+		utilitarian_despotism = {
 			popularity = 10
 		}
 		
-		orthodox_marxism = {
-			popularity = 30
+                monarchism = {
+			popularity = 10
 		}
-		
+
+		orthodox_marxism = {
+			popularity = 20
+		}
+		neutrality = {
+			popularity = 50
+		}
 	}
+        ruling_party = social_conservatism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Sukarno"
-	desc = ""
-	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+	name = "Bonifacius Cornelis de Jonge"
+	desc = "POLITICS_BC_DE_JONG_DESC"
+	picture = "gfx/leaders/INS/bc_de_jong_portrait.dds"
 	expire = "1953.3.1"
-	ideology = reformist_socialism #Marhaenism his own unique mix of stuff
+	ideology = social_conservatism_subtype
 	traits = {
 		
 	}
@@ -57,7 +67,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
 	expire = "1953.3.1"
-	ideology = conservative 
+	ideology = conservatism
 	traits = {
 		
 	}
@@ -68,7 +78,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = trotskyism
+	ideology = marxism
 	traits = {
 		
 	}
@@ -79,7 +89,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = national_collectivism_subtype
+	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
 	traits = {
 		
 	}
@@ -101,7 +111,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 1939.1.1 = {
 	add_political_power = 1198
 
-	oob = "INS_1939" #straight copy of INS 1936
+	oob = "INS_1939" #straight copy of INS 1936 wow creativity amirite?
 
 	#generic focuses
 	complete_national_focus = army_effort
