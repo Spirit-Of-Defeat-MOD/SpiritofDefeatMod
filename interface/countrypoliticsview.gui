@@ -656,7 +656,7 @@ guiTypes = {
 		
 		iconType = {
 			name = "idea_traits"
-			position = { x = 43 y = 46 }
+			position = { x = 43 y = 50 }
 			spriteType = "GFX_idea_traits_strip"
 			centerposition = yes
 			alwaystransparent = yes
@@ -667,7 +667,7 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "political_selectable_idea_entry"
-		size = { width = 231 height = 74 }
+		size = { width = 231 height = 150 }
 		clipping = no
 			
 		background = {
@@ -707,7 +707,7 @@ guiTypes = {
 		
 		gridboxtype = {
 			name = "traits_grid"
-			position = { x = 90 y = 28 }
+			position = { x = 91 y = 50 }
 			size = { width = 231 height = 100%% }
 			slotsize = { width = 200 height = 15 }
 			add_horizontal = no
@@ -716,7 +716,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 80 y = 47 }
+			position = { x = 80 y = 110 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

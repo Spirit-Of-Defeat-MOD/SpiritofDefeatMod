@@ -20,6 +20,9 @@ GER_totalitarian_socialism_party:0 "Alte SPD"
 GER_totalitarian_socialism_party_long:0 "Alte Sozialdemokratische Partei Deutschlands \n§g This radical offshoot of the SPD, under the direction of Ernst Niekisch, uphold a'proletarian nationalist' ideology known as National Bolshevism. A blend of Marxist principles and extreme nationalism, Alte SPD dogma dictates the establishment of a totalitarian state that is capable of opposing the capitalists who've undermined Germany.§!"
 GER_orthodox_marxism_party:0 "KAPD"
 GER_orthodox_marxism_party_long:0 "Kommunistische Arbeiter-Partei Deutschlands"
+
+#Ministers
+GER_military_council_hog:0 "Oberste Heeresleitung"
  
 GER_nationindisarray:0 "A Nation In Disarray"
 GER_nationindisarray_desc:0 "Since the end of the Great War, the German state has been left in a state of turmoil. Unstable coalition governments and an economy crippled by war reparations have torn apart what had once been a world power. With the socialists having won a narrow electoral majority, the Reichswehr have successfully orchestrated a coup against the democratic government."
@@ -211,4 +214,7 @@ GER V2_nationalizearmsmanufacturers:0 "Nationalize Arms Manufacturers"
 GER V2_nationalizearmsmanufacturers_desc:0 ""
 GER V2_strikeagainstliberalism:0 "Strike Against Liberalism"
 GER V2_strikeagainstliberalism_desc:0 ""
+
+
+
 

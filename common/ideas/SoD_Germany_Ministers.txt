@@ -1,0 +1,28 @@
+ideas = {
+	
+	head_of_government = {
+	
+		GER_military_council_hog = {
+			allowed = { original_tag = GER }
+			available = {
+				custom_trigger_tooltip = {
+					tooltip = minister_available
+					NOT = { has_country_flag = military_council_unavailable }
+					has_country_flag = can_replace_hog
+				}
+			}
+			visible = {
+				NOT = { has_country_flag = military_council_unavailable }
+			}
+			on_add = {
+				log = "[GetDateText]: [Root.GetName]: add idea GER_military_council_hog"
+			}
+			traits = {
+				head_of_government
+				military_council
+				hog_weak_government
+			}
+			cancel_if_invalid = yes
+		}
+	}
+}
