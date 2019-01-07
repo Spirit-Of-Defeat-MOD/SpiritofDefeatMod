@@ -1,4 +1,4 @@
-capital = 335 #Jakarta
+﻿capital = 335 #Jakarta
 
 oob = "INS_1936"
 
@@ -27,36 +27,26 @@ set_politics = {
 
 	parties = {
 		social_conservatism = { 
-			popularity = 50
+			popularity = 60
 		}
 
-		utilitarian_despotism = {
+		national_collectivism = {
 			popularity = 10
 		}
 		
-                monarchism = {
-			popularity = 10
-		}
-
 		orthodox_marxism = {
-			popularity = 20
+			popularity = 30
 		}
-		neutrality = {
-			popularity = 50
-		}
+		
 	}
-        ruling_party = social_conservatism
-	last_election = "1936.1.1"
-	election_frequency = 48
-	elections_allowed = no
 }
 
 create_country_leader = {
-	name = "Bonifacius Cornelis de Jonge"
-	desc = "POLITICS_BC_DE_JONG_DESC"
-	picture = "gfx/leaders/INS/bc_de_jong_portrait.dds"
+	name = "Sukarno"
+	desc = ""
+	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
 	expire = "1953.3.1"
-	ideology = social_conservatism_subtype
+	ideology = reformist_socialism #Marhaenism his own unique mix of stuff
 	traits = {
 		
 	}
@@ -67,7 +57,7 @@ create_country_leader = {
 	desc = ""
 	picture = "GFX_portrait_indonesia_at_van_starkenborgh"
 	expire = "1953.3.1"
-	ideology = conservatism
+	ideology = conservative 
 	traits = {
 		
 	}
@@ -78,7 +68,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_1.dds"
 	expire = "1953.3.1"
-	ideology = marxism
+	ideology = trotskyism
 	traits = {
 		
 	}
@@ -89,7 +79,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_fascism.dds"
 	expire = "1953.3.1"
-	ideology = fascism_ideology # except for no connection to catholicism, this party perfectly fits into falangism 
+	ideology = national_collectivism_subtype
 	traits = {
 		
 	}
@@ -111,7 +101,7 @@ set_cosmetic_tag = INS_HOL # Netherlands East Indies
 1939.1.1 = {
 	add_political_power = 1198
 
-	oob = "INS_1939" #straight copy of INS 1936 wow creativity amirite?
+	oob = "INS_1939" #straight copy of INS 1936
 
 	#generic focuses
 	complete_national_focus = army_effort

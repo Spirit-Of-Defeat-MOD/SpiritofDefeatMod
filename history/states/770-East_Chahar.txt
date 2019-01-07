@@ -1,0 +1,23 @@
+
+state={
+	id=770
+	name="STATE_770" # East Chahar
+	manpower = 234000
+	
+	state_category = rural
+
+	history={
+		owner = MSR
+		add_core_of = MEN
+		add_core_of = CHI
+		add_core_of = PRC
+                add_core_of = MSR
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1871 12554 10363 7578 1811 
+	}
+}

@@ -69,12 +69,12 @@ set_politics = {
 			#banned = no #default is no
 		}
 		
-		monarchism = { 
+		neutrality = { 
 			popularity = 100
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -85,7 +85,7 @@ create_country_leader = {
 	desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
 	picture = "GFX_portrait_oman_said_bin_taimur"
 	expire = "1965.1.1"
-	ideology = monarchism_subtype
+	ideology = despotism
 	traits = {
 		#
 	}

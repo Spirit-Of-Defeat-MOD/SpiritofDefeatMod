@@ -24,20 +24,20 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		democratic = { 
 			popularity = 7
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 13
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 79
 		}
 	}
 	
-	ruling_party = vanguard_communism
+	ruling_party = communism
 	last_election = "1933.3.5"
 	election_frequency = 48
 	elections_allowed = no
@@ -48,7 +48,7 @@ create_country_leader = {
 	desc = "POLITICS_ANTONIN_JANOUSEK_DESC"
 	picture = "Portrait_Slovakia_Jozef_Tiso.dds"
 	expire = "1965.1.1"
-	ideology = vanguard_communism_subtype
+	ideology = anarchist_communism
 	traits = {
 		#
 	}

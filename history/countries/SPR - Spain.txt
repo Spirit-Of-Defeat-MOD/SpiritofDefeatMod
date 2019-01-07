@@ -1,4 +1,4 @@
-capital = 41
+﻿capital = 41
 
 oob = "SPR_1936"
 
@@ -28,45 +28,23 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		totalitarian_socialism = { 
+		democratic = { 
 			popularity = 47
 		}
 
-		monarchism = {
+		fascism = {
 			popularity = 46
 		}
 		
-		social_liberalism = {
+		communism = {
 			popularity = 7
 		}
 	}
 	
-	ruling_party = monarchism
+	ruling_party = democratic
 	last_election = "1933.2.16"
 	election_frequency = 36
-	elections_allowed = no
-}
-
-create_country_leader = {
-	name = "Alfonso XIII de Bourbon"
-	desc = "POLITICS_ALFONSO_XIII_DESC"
-	picture = "alfonso_xiii.dds"
-	expire = "1965.1.1"
-	ideology = monarchism_subtype
-	traits = {
-		#
-	}
-}
-
-create_field_marshal = {
-	name = "Jose Asensio Torrado"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 4
-	logistics_skill = 3
+	elections_allowed = yes
 }
 
 set_convoys = 150
@@ -171,7 +149,7 @@ create_country_leader = {
 }
 
 create_country_leader = {
-	name = "Jose Diaz"
+	name = "José Díaz"
 	desc = "POLITICS_JOSE_DIAZ_DESC"
 	picture = "Portrait_Spain_Jose_Diaz.dds"
 	expire = "1965.1.1"
@@ -202,6 +180,18 @@ create_country_leader = {
 		#
 	}
 }
+
+create_field_marshal = {
+	name = "José Asensio Torrado"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { defensive_doctrine }
+	skill = 2
+    attack_skill = 1
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 1
+}
+
 
 ### Ship Variants ###
 

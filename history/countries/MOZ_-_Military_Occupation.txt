@@ -75,25 +75,25 @@ set_convoys = 0
 set_politics = {
 
 	parties = {
-		scoial_conservatism = { 
+		democratic = { 
 			popularity = 3
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 2
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 35
 			#banned = no #default is no
 		}
 		
-		utilitarian_despotism = { 
+		neutrality = { 
 			popularity = 60
 		}
 	}
 	
-	ruling_party = utilitarian_despotism
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
@@ -134,7 +134,7 @@ create_country_leader = {
 	desc = "POLITICS_MAURICE_GAMELIN_DESC"
 	picture = "Portrait_France_Maurice_Gamelin.dds"
 	expire = "1965.1.1"
-	ideology = police_state
+	ideology = moderatism
 	traits = {
 		#
 	}

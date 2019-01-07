@@ -93,7 +93,7 @@ set_technology = {
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		democratic = { 
 			popularity = 75
 		}
 
@@ -121,22 +121,25 @@ set_politics = {
 	set_politics = {
 
 		parties = {
-			social_conservatism = { 
+			democratic = { 
 				popularity = 85
 			}
 
-
-			vanguard_communism = {
-				popularity = 10
+			neutrality = {
+				popularity  = 12
 			}
 
-			national_collectivism = {
-				popularity = 7
+			communism = {
+				popularity = 4
+			}
+
+			fascism = {
+				popularity = 1
 			}
 			
 		}
 		
-		ruling_party = social_conservatism
+		ruling_party = democratic
 		last_election = "1936.9.20"
 		election_frequency = 48
 		elections_allowed = yes
@@ -187,7 +190,7 @@ create_country_leader = {
 	desc = "POLITICS_AXEL_PEHRSSON_BRAMSTORP_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
 	expire = "1965.1.1"
-	ideology = conservative
+	ideology = centrism
 	traits = {
 		#
 	}

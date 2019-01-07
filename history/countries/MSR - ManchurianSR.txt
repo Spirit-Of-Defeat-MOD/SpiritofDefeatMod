@@ -60,11 +60,11 @@ set_politics = {
 			banned = yes
 		}
 
-		national_collectivism = {
+		fascism = {
 			popularity = 2
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 98
 		}
 
@@ -73,7 +73,7 @@ set_politics = {
 		}
 	}
 	
-	ruling_party = vanguard_communism
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no

@@ -72,7 +72,7 @@ set_convoys = 5
 set_politics = {
 
 	parties = {
-		social_conservatism = { 
+		democratic = { 
 			popularity = 0
 		}
 
@@ -80,7 +80,7 @@ set_politics = {
 			popularity = 20
 		}
 		
-		vanguard_communism = {
+		communism = {
 			popularity = 0
 			#banned = no #default is no
 		}
