@@ -17,4 +17,24 @@
 
 #How to do party descriptions
 #\n§g Description.§!
+
+#Decision Categories
+SOV_supreme_soviet:0 "Supreme Soviet of the Soviet Union"
+SOV_evaluate_leninists_desc:0 "Current Influence: §H[?SOV_leninist_influence]%§!\nCurrent Effects:\n[SOVGetLeninistEffects]"
+
+#Decisions
+SOV_evaluate_leninists:0 "Evaluate the Leninists"
+ SOV_leninist_very_high_influence:0 "The Leninists"
+ SOV_leninist_high_influence:0 "The Leninists"
+ SOV_leninist_medium_influence:0 "The Leninists"
+ SOV_leninist_low_influence:0 "The Leninists"
+ SOV_leninist_very_low_influence:0 "The Leninists"
  
+ 
+ #Scripted Localisation
+ 
+ SOV_leninist_very_high_influence_effect:0 "§HPolitical Power:§! §G0.15§!\n§HStability Factor:§! §G+0.15§!"
+ SOV_leninist_high_influence_effectt:0 "§HPolitical Power:§! §G0.10§!\n§HStability Factor:§! §G+0.10§!"
+ SOV_leninist_medium_influence_effect:0 "§HPolitical Power:§! §G0.05§!\n§HStability Factor:§! §G+0.05§!"
+ SOV_leninist_low_influence_effect:0 "§HPolitical Power:§! §R-0.05§!\n§HStability Factor:§! §R-0.05§!"
+ SOV_SOV_leninist_very_low_influence_effect:0 "§HPolitical Power:§! §R-0.10§!\n§HStability Factor:§! §R-0.10§!"
