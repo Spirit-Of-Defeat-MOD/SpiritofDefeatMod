@@ -1,0 +1,285 @@
+SOV_update_leninist = {
+	#Ensuring that influence is not below 0 or above 100
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = SOV_leninist_influence
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = SOV_leninist_influence
+			value = 0
+		}
+	}
+	
+	#Making it so I dont have to repeat this for every check below
+	remove_ideas = SOV_leninist_very_high_influence
+	remove_ideas = SOV_leninist_high_influence
+	remove_ideas = SOV_leninist_medium_influence
+	remove_ideas = SOV_leninist_low_influence
+	remove_ideas = SOV_leninist_very_low_influence
+	
+	
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 81
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_leninist_very_high_influence
+
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 61
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_leninist_high_influence
+
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 41
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_leninist_medium_influence
+
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 21
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_leninist_low_influence
+
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_leninist_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_leninist_very_low_influence
+
+	}
+}
+
+
+SOV_update_molotovist = {
+	#Ensuring that influence is not below 0 or above 100
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = SOV_molotovist_influence
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = SOV_molotovist_influence
+			value = 0
+		}
+	}
+	
+	#Making it so I dont have to repeat this for every check below
+	remove_ideas = SOV_molotovist_very_high_influence
+	remove_ideas = SOV_molotovist_high_influence
+	remove_ideas = SOV_molotovist_medium_influence
+	remove_ideas = SOV_molotovist_low_influence
+	remove_ideas = SOV_molotovist_very_low_influence
+	
+	
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 81
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_molotovist_very_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 61
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_molotovist_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 41
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_molotovist_medium_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 21
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_molotovist_low_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_molotovist_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_molotovist_very_low_influence
+	}
+}
+
+
+SOV_update_trotskyist = {
+	#Ensuring that influence is not below 0 or above 100
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 100
+				compare = greater_than
+			}
+		}
+		set_variable = {
+			var = SOV_trotskyist_influence
+			value = 100
+		}
+	}
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 0
+				compare = less_than
+			}
+		}
+		set_variable = {
+			var = SOV_trotskyist_influence
+			value = 0
+		}
+	}
+	
+	#Making it so I dont have to repeat this for every check below
+	remove_ideas = SOV_trotskyist_very_high_influence
+	remove_ideas = SOV_trotskyist_high_influence
+	remove_ideas = SOV_trotskyist_medium_influence
+	remove_ideas = SOV_trotskyist_low_influence
+	remove_ideas = SOV_trotskyist_very_low_influence
+	
+	
+	if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 81
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_trotskyist_very_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 61
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_trotskyist_high_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 41
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_trotskyist_medium_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 21
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_trotskyist_low_influence
+	}
+	
+	else_if = {
+		limit = {
+			check_variable = {
+				var = SOV_trotskyist_influence
+				value = 0
+				compare = greater_than_or_equals
+			}
+		}
+		add_ideas = SOV_trotskyist_very_low_influence
+	}
+}

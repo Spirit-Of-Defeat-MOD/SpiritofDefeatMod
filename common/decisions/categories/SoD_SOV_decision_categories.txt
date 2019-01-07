@@ -1,0 +1,7 @@
+SOV_supreme_soviet = {
+	icon = generic_crisis
+	
+	allowed = {
+		tag = SOV
+	}
+}

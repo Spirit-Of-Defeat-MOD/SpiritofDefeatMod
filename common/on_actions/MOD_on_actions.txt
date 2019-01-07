@@ -1,0 +1,34 @@
+on_actions = {
+
+	on_startup = {
+	
+		effect = {
+		
+			SOV = {
+				set_variable = {
+					var = SOV_leninist_influence
+					value = 70
+				}
+				SOV_update_leninist = yes
+
+				set_variable = {
+					var = SOV_molotovist_influence
+					value = 20
+				}
+				SOV_update_molotovist = yes
+				
+				set_variable = {
+					var = SOV_trotskyist_influence
+					value = 10
+				}
+				SOV_update_trotskyist = yes
+				
+			}
+		
+		}
+	
+		
+	
+	}
+	
+}

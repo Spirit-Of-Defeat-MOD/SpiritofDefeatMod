@@ -1,0 +1,117 @@
+defined_text = {
+	name = SOVGetLeninistEffects
+	
+	text = {
+		trigger = {
+			has_idea = SOV_leninist_very_high_influence
+		}
+		localization_key = SOV_leninist_very_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_leninist_high_influence
+		}
+		localization_key = SOV_leninist_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_leninist_medium_influence
+		}
+		localization_key = SOV_leninist_medium_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_leninist_low_influence
+		}
+		localization_key = SOV_leninist_low_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_leninist_very_low_influence
+		}
+		localization_key = SOV_leninist_very_low_influence_effect
+	}
+}
+
+
+defined_text = {
+	name = SOVGetMolotovistEffects
+	
+	text = {
+		trigger = {
+			has_idea = SOV_molotovist_very_high_influence
+		}
+		localization_key = SOV_molotovist_very_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_molotovist_high_influence
+		}
+		localization_key = SOV_molotovist_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_molotovist_medium_influence
+		}
+		localization_key = SOV_molotovist_medium_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_molotovist_low_influence
+		}
+		localization_key = SOV_molotovist_low_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_molotovist_very_low_influence
+		}
+		localization_key = SOV_molotovist_very_low_influence_effect
+	}
+}
+
+defined_text = {
+	name = SOVGetTrotskyistEffects
+	
+	text = {
+		trigger = {
+			has_idea = SOV_trotskyist_very_high_influence
+		}
+		localization_key = SOV_trotskyist_very_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_trotskyist_high_influence
+		}
+		localization_key = SOV_trotskyist_high_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_trotskyist_medium_influence
+		}
+		localization_key = SOV_trotskyist_medium_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_trotskyist_low_influence
+		}
+		localization_key = SOV_trotskyist_low_influence_effect
+	}
+	
+	text = {
+		trigger = {
+			has_idea = SOV_trotskyist_very_low_influence
+		}
+		localization_key = SOV_trotskyist_very_low_influence_effect
+	}
+}

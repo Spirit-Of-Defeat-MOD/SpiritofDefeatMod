@@ -1,0 +1,28 @@
+SOV_supreme_soviet = {
+	SOV_evaluate_leninists = {
+		complete_effect = {
+			country_event = {
+				id = leninist.1
+				hours = 1
+			}
+		}
+	}
+	
+	SOV_evaluate_molotovists = {
+		complete_effect = {
+			country_event = {
+				id = molotovist.1
+				hours = 1
+			}
+		}
+	}
+	
+	SOV_evaluate_trotskyists = {
+		complete_effect = {
+			country_event = {
+				id = trotskyist.1
+				hours = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,123 @@
+﻿###########################
+# Faction Events by kstar234
+###########################
+
+add_namespace = leninist
+add_namespace = molotovist
+add_namespace = trotskyist
+
+
+country_event = {
+	id = leninist.1
+	title = leninist.1.t
+	desc = leninist.1.d
+	
+	is_triggered_only = yes
+	
+	option = { # 
+		name = leninist.1.a
+		ai_chance = { factor = 75 }
+		add_political_power = -25
+		
+		add_to_variable = {
+			var = SOV_leninist_influence
+			value = 20
+		}
+		
+		add_to_variable = {
+			var = SOV_molotovist_influence
+			value = -10
+		}
+		
+		add_to_variable = {
+			var = SOV_trotskyist_influence
+			value = -10
+		}
+		
+		hidden_effect = {
+			SOV_update_leninist = yes
+			SOV_update_molotovist = yes
+			SOV_update_trotskyist = yes
+		}
+		
+		
+
+	}
+}
+
+
+country_event = {
+	id = molotovist.1
+	title = molotovist.1.t
+	desc = molotovist.1.d
+	
+	is_triggered_only = yes
+	
+	option = { # Push back
+		name = molotovist.1.a
+		ai_chance = { factor = 75 }
+		add_political_power = -25
+		
+		add_to_variable = {
+			var = SOV_leninist_influence
+			value = -10
+		}
+		
+		add_to_variable = {
+			var = SOV_molotovist_influence
+			value = 20
+		}
+		
+		add_to_variable = {
+			var = SOV_trotskyist_influence
+			value = -10
+		}
+		
+		hidden_effect = {
+			SOV_update_leninist = yes
+			SOV_update_molotovist = yes
+			SOV_update_trotskyist = yes
+		}
+		
+		
+
+	}
+}
+
+country_event = {
+	id = trotskyist.1
+	title = trotskyist.1.t
+	desc = trotskyist.1.d
+	
+	is_triggered_only = yes
+	
+	option = { # Push back
+		name = trotskyist.1.a
+		ai_chance = { factor = 75 }
+		add_political_power = -25
+		
+		add_to_variable = {
+			var = SOV_leninist_influence
+			value = -10
+		}
+		
+		add_to_variable = {
+			var = SOV_molotovist_influence
+			value = -10
+		}
+		
+		add_to_variable = {
+			var = SOV_trotskyist_influence
+			value = 20
+		}
+		
+		hidden_effect = {
+			SOV_update_leninist = yes
+			SOV_update_molotovist = yes
+			SOV_update_trotskyist = yes
+		}
+		
+		
+
+	}
+}
