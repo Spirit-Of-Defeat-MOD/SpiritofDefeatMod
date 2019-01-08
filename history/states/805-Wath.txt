@@ -1,0 +1,21 @@
+state={
+	id=805
+	name="STATE_805"
+	provinces={
+		13241 
+	}
+	state_category = wasteland
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+
+		add_core_of = EGY
+
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+}

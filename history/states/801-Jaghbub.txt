@@ -1,0 +1,23 @@
+state={
+	id=801
+	name="STATE_801"
+	provinces={
+		1060 1140 
+	}
+	
+	state_category = wasteland
+	impassable = yes
+
+	history={
+		owner = EGY
+		buildings = {
+			infrastructure = 0
+		}
+
+		add_core_of = EGY
+
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+state={
+	id=803
+	name="STATE_803"
+	provinces={
+		13236 
+	}
+	
+	
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = LBA
+
+	}
+	
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category = wasteland
+	impassable = yes
+}
