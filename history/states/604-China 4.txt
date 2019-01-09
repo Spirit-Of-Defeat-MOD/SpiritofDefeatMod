@@ -1,13 +1,13 @@
+
 state={
 	id=604
 	name="STATE_604"
 
 	history={
-		owner = BEI
+		owner = XSM
 		add_core_of = XSM
 		add_core_of = CHI
 		add_core_of = PRC
-                add_core_of = BEI
 		victory_points = {
 			7940 10 
 		}
@@ -20,7 +20,8 @@ state={
 			if = {
 				limit = {
 					NOT = {
-						has_dlc = "Waking the Tiger" 
+						has_dlc = Waking the Tiger
+
 					}
 
 				}
@@ -36,7 +37,7 @@ state={
 	}
 
 	provinces={
-		4914 4964 7940 8018 8037 12899 
+		4914 4964 7940 8018 8037 12899 13219 
 	}
 	manpower=1196100
 	buildings_max_level_factor=1.000
